@@ -10,4 +10,5 @@ cron.schedule(`0 0 * * *`, async () => {
           for(let i of results){
                 console.log(i, "---->", typeof i)
           }
+  }
 });
